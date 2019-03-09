@@ -10,7 +10,7 @@ body {
 }
 
 #burger {
-    background: #e68b7c;
+    background: #eeb2a8;
     padding: 2%;
   }
 
@@ -44,6 +44,22 @@ button {
     margin-top: 5%;
 }
 
+.devouredTime {
+    display: flex;
+    margin: 0.5em auto;
+
+}
+
+.devouredTime > span {
+    background-color: #de6551;
+    border: 1px solid #ab321e;
+    flex: 0 0 60%;
+    padding: 0.5em;
+    text-align: center;
+    width: 150px;
+    
+}
+
 .form-group {
     display: flex;
     justify-content: center;
@@ -67,6 +83,7 @@ img {
 }
 
 #submit {
+    margin-bottom: 5%;
     margin-left: 45%;
     padding: 1%;
 }

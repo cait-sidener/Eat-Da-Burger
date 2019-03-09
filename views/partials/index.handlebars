@@ -4,13 +4,13 @@
 
   <div class="row">
     <div class="col-md-7 col-left">
-      <table>
+      <ul>
         {{#each burgers}}
           {{#unless devoured}}
             {{> burgers/burger-block devoured=false}}
           {{/unless}}
         {{/each}}
-      </table>
+      </ul>
     </div>
 
     <div class="col-md-5 col-right">
@@ -30,8 +30,7 @@
       <label for="name"></label>
       <textarea id="burger" name="burger_name" rows="2" cols="40" placeholder="Enter a burger you want to eat. Click the 'Submit' button."></textarea>
     </div>
-  </form>
     <button type="submit" id="submit">Submit</button>
-  
+    </form>
 
 </div>
