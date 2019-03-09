@@ -82,6 +82,10 @@ img {
     width: 10%;
 }
 
+::placeholder {
+    color: #000;
+}
+
 #submit {
     margin-bottom: 5%;
     margin-left: 45%;
